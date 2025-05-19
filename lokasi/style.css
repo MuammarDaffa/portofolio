@@ -1,0 +1,56 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Container luar untuk atur posisi tengah */
+.lokasi-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px); /* sisakan ruang untuk navbar */
+  padding: 0px 0;
+}
+
+/* Container konten lokasi */
+.lokasi-container {
+  width: 50%;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.lokasi-container img {
+  width: 120px;
+  border-radius: 10%;
+  box-shadow: 0 0 10px #ffffff;
+}
+
+.lokasi-container h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.lokasi-container p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #666;
+  line-height: 1.6;
+}
+
+
+footer {
+  background-color: #4CC9FE;
+  padding: 20px;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+  margin-top: 20px;
+  box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+}
